@@ -13,8 +13,7 @@ with open("README.md") as readme_file:
 __version__ = "1.2.0"
 
 requirements = [
-    "attrs>=20.3",
-    "requests>=2.20.0",
+    "attrs>=22.2.0",
     f"openlineage-integration-common[sql]=={__version__}",
     f"openlineage-python=={__version__}",
 ]
