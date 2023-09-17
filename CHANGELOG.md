@@ -1,6 +1,9 @@
 # Changelog
 
 ## [Unreleased](https://github.com/OpenLineage/OpenLineage/compare/1.2.2...HEAD)
+### Added
+* **Spark: support for latest 3.5** [`2118`](https://github.com/OpenLineage/OpenLineage/pull/2118) [@pawel-big-lebowski](https://github.com/pawel-big-lebowski)  
+  *Run integration tests on Spark 3.5. Upgrade 3.3 branch to 3.3.3. Please note that `delta` and `iceberg` is not supported for Spark `3.5` at this time.*
 
 ## [1.2.2](https://github.com/OpenLineage/OpenLineage/compare/1.1.0...1.2.2) - 2023-09-19
 ### Added
